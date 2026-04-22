@@ -124,7 +124,6 @@ Building-aware Energy Forecasting/
 
 The current GitHub version keeps only the paper-critical and minimally reproducible workflow. Historical exploratory branches, cache folders, and generated training artifacts have been removed.
 
-look up！
 
 Core directories:
 
