@@ -65,7 +65,7 @@ Notes:
 当前 GitHub 版本只保留与论文主线直接相关的最小可复现代码，不再包含历史探索路线、缓存和训练产物。
 
 ```text
-Building-aware Energy Forcasting/
+Building-aware Energy Forecasting/
 ├── Building Data Genome Project 1/          # 本地数据目录，默认不上传 GitHub
 ├── Building Data Genome Project 2/          # 本地数据目录，默认不上传 GitHub
 ├── configs/                                # 论文主线实验配置
@@ -264,7 +264,7 @@ pip install -r requirements.txt
 先进入项目目录：
 
 ```powershell
-cd "D:\DL\BEF\Building-aware Energy Forcasting"（请修改为自己的目录）
+cd "D:\DL\BEF\Building-aware Energy Forecasting"（请修改为自己的目录）
 ```
 
 ### 5.1 BDG2：250 建筑 seen-building 主实验
@@ -348,7 +348,7 @@ python .\scripts\summarize_multisplit_unseen_building.py --base-run-name buildin
 First enter the project directory:
 
 ```powershell
-cd "D:\DL\BEF\Building-aware Energy Forcasting"(Please replace this with your own path)
+cd "D:\DL\BEF\Building-aware Energy Forecasting"(Please replace this with your own path)
 ```
 
 ### 5.1 BDG2: 250-building seen-building benchmark
@@ -430,6 +430,11 @@ Generated files will be written to:
 ## 6. 当前论文主线 / Current Paper Scope
 
 ### 中文
+
+<img width="762" height="331" alt="image" src="https://github.com/user-attachments/assets/d1f1dfc7-a861-4b83-b216-ab01253bf1ae" />
+
+<img width="926" height="230" alt="image" src="https://github.com/user-attachments/assets/6ada7b9d-a58c-43f0-8b13-c059df2227c6" />
+
 
 当前仓库围绕如下六种方法组织：
 
