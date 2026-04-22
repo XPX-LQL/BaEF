@@ -1,12 +1,12 @@
+本仓库是面向论文主线整理后的 BaEF 代码仓库：
+
+**从传统 Building Energy Forecasting（BEF）进一步明确提出 Building-aware Energy Forecasting（BaEF）问题设定，并在 BDG2 和 BDG1 的 250 建筑协议上，使用 GlobalITransformer-building-aware framework 系统检验建筑元数据在 seen-building 与 unseen-building 场景中的作用边界。**
+
 # BaEF: From BEF to Building-aware Energy Forecasting
 
 This repository contains the cleaned research codebase for our BaEF paper line:
 
 **From traditional Building Energy Forecasting (BEF) to Building-aware Energy Forecasting (BaEF), with a 250-building benchmark on BDG2 and BDG1, and a GlobalITransformer-building-aware framework for studying the boundary of building metadata under seen-building and unseen-building settings.**
-
-本仓库是面向论文主线整理后的 BaEF 代码仓库：
-
-**从传统 Building Energy Forecasting（BEF）进一步明确提出 Building-aware Energy Forecasting（BaEF）问题设定，并在 BDG2 和 BDG1 的 250 建筑协议上，使用 GlobalITransformer-building-aware framework 系统检验建筑元数据在 seen-building 与 unseen-building 场景中的作用边界。**
 
 ## 1. 电脑配置 / Hardware and Software
 
