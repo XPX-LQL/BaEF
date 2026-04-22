@@ -459,7 +459,7 @@ The current repository is organized around the following six methods:
 
 The current `GlobalITransformer-building-aware` setup uses **load + architectural metadata** without the weather branch, so that the role of building metadata can be studied more explicitly.
 
-## 7. GitHub Release Notes / GitHub 发布说明
+## 7. GitHub 发布说明 / GitHub Release Notes
 
 ### 中文
 
