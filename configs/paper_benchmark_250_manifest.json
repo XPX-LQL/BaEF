@@ -1,0 +1,54 @@
+{
+  "run_name": "paper_benchmark_250",
+  "description": "250-building BDG2 benchmark lineup for the BaEF paper.",
+  "experiments": [
+    {
+      "id": "historical_average_250",
+      "paper_role": "baseline",
+      "metrics_file": "outputs/results/global_lightgbm_250_metrics.csv",
+      "model": "HistoricalAverage",
+      "split": "test",
+      "note": "Historical Average is emitted by the LightGBM benchmark pipeline."
+    },
+    {
+      "id": "global_lightgbm_building_aware_250",
+      "paper_role": "baseline",
+      "metrics_file": "outputs/results/global_lightgbm_250_metrics.csv",
+      "model": "GlobalLightGBM-building-aware",
+      "split": "test",
+      "note": "Strong tree baseline with building metadata and weather."
+    },
+    {
+      "id": "global_lstm_250",
+      "paper_role": "baseline",
+      "metrics_file": "outputs/results/global_lstm_250_metrics.csv",
+      "model": "GlobalLSTM-load-only",
+      "split": "test",
+      "note": "Sequence-model baseline under the aligned 250-building protocol."
+    },
+    {
+      "id": "global_patchtst_250",
+      "paper_role": "baseline",
+      "metrics_file": "outputs/results/global_patchtst_250_metrics.csv",
+      "model": "GlobalPatchTST-load-only",
+      "split": "test",
+      "note": "PatchTST baseline under the aligned 250-building protocol."
+    },
+    {
+      "id": "global_itransformer_250",
+      "paper_role": "baseline",
+      "metrics_file": "outputs/results/global_itransformer_250_metrics.csv",
+      "model": "GlobalITransformer-load-only",
+      "split": "test",
+      "note": "Vanilla iTransformer baseline under the aligned 250-building protocol."
+    },
+    {
+      "id": "building_aware_itransformer_250_noweather",
+      "paper_role": "building-aware",
+      "metrics_file": "outputs/results/building_aware_itransformer_250_noweather_metrics.csv",
+      "model": "GlobalITransformer-building-aware",
+      "split": "test",
+      "note": "Building-aware iTransformer with static architecture metadata and no weather branch."
+    }
+  ]
+}

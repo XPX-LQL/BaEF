@@ -1,0 +1,77 @@
+{
+  "run_name": "building_aware_itransformer_bdg1_250_noweather",
+  "data_dir": "Building Data Genome Project 1",
+  "lookback_hours": 168,
+  "forecast_horizon": 24,
+  "selection": {
+    "max_meters": 250,
+    "meters_per_primary_use": 50,
+    "min_completeness": 0.98,
+    "site_balanced": true,
+    "max_meters_per_site": 50,
+    "primary_uses": [
+      "Office",
+      "Primary/Secondary Classroom",
+      "College Classroom",
+      "College Laboratory",
+      "Dormitory"
+    ]
+  },
+  "weather": {
+    "enabled": false,
+    "features": [],
+    "use_origin_weather": false,
+    "use_future_weather_mean": false
+  },
+  "metadata": {
+    "categorical_columns": [
+      "primaryspaceusage",
+      "sub_primaryspaceusage",
+      "timezone"
+    ],
+    "numeric_columns": [
+      "sqm",
+      "log_sqm",
+      "sqm_missing",
+      "yearbuilt",
+      "yearbuilt_missing",
+      "numberoffloors",
+      "numberoffloors_missing"
+    ]
+  },
+  "splits": {
+    "train": {
+      "target_start": "2015-01-01 00:00:00",
+      "target_end": "2015-06-30 23:00:00"
+    },
+    "val": {
+      "target_start": "2015-07-01 00:00:00",
+      "target_end": "2015-09-30 23:00:00"
+    },
+    "test": {
+      "target_start": "2015-10-01 00:00:00",
+      "target_end": "2015-12-31 23:00:00"
+    }
+  },
+  "model": {
+    "baseline_model_name": "GlobalITransformer-load-only",
+    "d_model": 128,
+    "n_heads": 8,
+    "num_layers": 3,
+    "d_ff": 256,
+    "dropout": 0.1,
+    "metadata_model_name": "GlobalITransformer-building-aware",
+    "metadata_dropout": 0.1,
+    "gate_l1_penalty": 0.0005
+  },
+  "training": {
+    "epochs": 56,
+    "batch_size": 64,
+    "learning_rate": 0.0005,
+    "weight_decay": 0.0001,
+    "patience": 10,
+    "seed": 42,
+    "num_workers": 0,
+    "clip_grad_norm": 1.0
+  }
+}

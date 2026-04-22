@@ -1,0 +1,28 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.vscode/
+desktop.ini
+Thumbs.db
+
+Building Data Genome Project 1/
+Building Data Genome Project 2/
+*.zip
+
+outputs/**
+!outputs/
+!outputs/checkpoints/
+!outputs/checkpoints/.gitkeep
+!outputs/figures/
+!outputs/figures/.gitkeep
+!outputs/generated_configs/
+!outputs/generated_configs/.gitkeep
+!outputs/logs/
+!outputs/logs/.gitkeep
+!outputs/predictions/
+!outputs/predictions/.gitkeep
+!outputs/results/
+!outputs/results/.gitkeep
+
+*.log
