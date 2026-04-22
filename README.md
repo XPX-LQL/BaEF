@@ -1,4 +1,4 @@
-# BaEF: From BEF to Building-aware Energy Forecasting
+# BaEF: Building-aware Global ITransformer Framework for Multi-Building Energy Forecasting
 
 本仓库是面向论文主线整理后的 BaEF 代码仓库：
 
