@@ -264,7 +264,7 @@ pip install -r requirements.txt
 先进入项目目录：
 
 ```powershell
-cd "D:\DL\BEF\Building-aware Energy Forcasting"
+cd "D:\DL\BEF\Building-aware Energy Forcasting"（请修改为自己的目录）
 ```
 
 ### 5.1 BDG2：250 建筑 seen-building 主实验
@@ -348,7 +348,7 @@ python .\scripts\summarize_multisplit_unseen_building.py --base-run-name buildin
 First enter the project directory:
 
 ```powershell
-cd "D:\DL\BEF\Building-aware Energy Forcasting"
+cd "D:\DL\BEF\Building-aware Energy Forcasting"(Please replace this with your own path)
 ```
 
 ### 5.1 BDG2: 250-building seen-building benchmark
