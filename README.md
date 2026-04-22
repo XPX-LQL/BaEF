@@ -139,7 +139,7 @@ Core directories:
 本项目不直接提供原始数据。请先下载 BDG2 和 BDG1，并按如下方式放到仓库根目录：
 
 ```text
-Building-aware Energy Forcasting/
+Building-aware Energy Forecasting/
 ├── Building Data Genome Project 1/
 └── Building Data Genome Project 2/
 ```
@@ -167,7 +167,7 @@ python .\scripts\prepare_bdg1_2015_canonical.py --data-dir ".\Building Data Geno
 Raw datasets are not shipped with this repository. Please download BDG2 and BDG1 and place them under the repository root as:
 
 ```text
-Building-aware Energy Forcasting/
+Building-aware Energy Forecasting/
 ├── Building Data Genome Project 1/
 └── Building Data Genome Project 2/
 ```
