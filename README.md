@@ -251,8 +251,6 @@ The current `GlobalITransformer-building-aware` setup uses **load + architectura
 
 ## 7.  GitHub Release Notes
 
-### English
-
 - Raw datasets are excluded from version control by default.
 - Generated checkpoints, logs, predictions, and result tables are excluded from version control.
 - Historical exploratory branches have been removed so that the repository matches the current paper workflow.
